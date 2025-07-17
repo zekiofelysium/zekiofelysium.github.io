@@ -1,16 +1,17 @@
 ---
 title: "About"
-#spell-checker: disable
+order: 3
 ---
-Lorem ipsum dolor sit amet in ipsum nullam neque aliquam mauris iusto vestibulum tincidunt in convallis etiam sagittis vestibulum sed arcu id massa aliquet curabitur aenean commodo.
 
-Dui maecenas laboris. Nec quis nunc enim est eros vestibulum elit soluta. Aenean aenean ut. Urna sollicitudin volutpat. Aliquam dictum non. Faucibus nunc volutpat. Nunc in in. Nec ut lacus eu ut praesent vitae at aliquet lorem aliquam laoreet. Ultricies accumsan vitae aliquam quam in ac nec nunc. Faucibus eros sit. Imperdiet egestas quam. Facere in duis nisl ultricies fermentum. Quisque et dicta. Rhoncus molestie erat. A tempor rhoncus. Nulla ac vitae. Nec posuere habitant rutrum tincidunt eleifend vel non tincidunt.
+<div class="about">
+歡迎來到彩衫筆記~!! 
+本部落格旨在紀錄學習 Lingerie Design 時的種種相關日記。
+將會記錄著上課時所學習到的打版與縫製的歷程，也希望未來能創作出屬於自己的作品。
 
-* Libero ac vulputate.
-* Feugiat rhoncus aliquam.
-* Felis suspendisse in molestie vel molestie pharetra ut nunc in cras esse.
-* Aliquet ut sociosqu at tortor hendrerit commodo morbi at vestibulum urna platea ante velit scelerisque.
-* Gravida sem in metus sapien vehicula tortor nulla nunc.
-* Habitant non sed.
+本部落格是使用 [eleventy-classic-blog-starter](https://github.com/TigersWay/eleventy-classic-blog-starter) 樣板，並基於 [11ty](https://www.11ty.dev/) 的靜態網站生成器所建立起來的網頁~!!
 
-Donec sem sed. Congue erat porta iaculis volutpat accumsan ac cras id rhoncus ut dignissim accumsan purus wisi et vitae cubilia. Neque in in. In lacus dolor. Sit risus praesent.
+網站使用的配色是"**莫蘭迪**"色系的"**綠色**"，莫蘭迪色系讓人覺得有種溫暖、放鬆、優雅以及舒適...等的感覺，也是板主所喜愛的顏色，因此這正是本網站採用此色系的原因。
+
+{% include "signature.njk" %}
+
+</div>

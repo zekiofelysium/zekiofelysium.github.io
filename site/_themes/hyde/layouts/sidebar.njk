@@ -8,7 +8,7 @@
     <nav class="sidebar-nav">
       <ul class="sidebar-nav-list">
         <li class="sidebar-nav-item{% if page.url == '/' %} active{% endif %}">
-          <a href="/">Posts</a>
+          <a href="/">首頁</a>
         </li>
 
         {% for item in collections.pages | sort(attribute='data.order') %}
@@ -30,8 +30,7 @@
     </nav>
 
     <p class="copyright">
-      &copy; Copyright 2025-{{ site.time | dateFormat('YYYY') }} | CaiShan's Note |
-      All rights reserved
+      &copy; 2025-{{ site.time | dateFormat('YYYY') }} All rights reserved.
     </p>
   </div>
 </div>

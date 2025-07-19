@@ -19,7 +19,7 @@ meta:
       <a href="{{ post.url }}">{{ post.data.title }}</a>
     </h1>
     <div class="post-excerptContent">
-      {{ post.templateContent | safe | trim | excerpt}}
+      {{ post.templateContent | striptags | trim | excerpt | safe }} …… <span class="post-more"><a href="{{ post.url }}">繼續閱讀</a></span>
     </div>
     <div class="post-tags">
       Tags: {% for tag in post.data.tags %}
@@ -70,7 +70,7 @@ meta:
       </time>
       <div
         class="post-readingtime"
-        data-words="{{ post.templateContent | striptags | wordcount }} words"
+        data-words="{{ post.templateContent | striptags | length }} words"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"

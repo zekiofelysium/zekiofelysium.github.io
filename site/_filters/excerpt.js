@@ -7,7 +7,6 @@ module.exports = {
         .trim()
         .slice(0, limit);
       // txt = txt.slice(0, (txt.indexOf(".") || txt.indexOf("。")) + 1);
-      txt = txt + "...";
       return txt;
     }
   },

@@ -23,4 +23,8 @@ module.exports = {
       }
     });
   },
+  length: (value) => {
+    isString(value);
+    return value.length;
+  },
 };

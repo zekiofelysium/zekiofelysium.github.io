@@ -46,7 +46,7 @@
   visibility: hidden;
   content: "";
   position: relative;
-  right: -10.8rem;
+  right: -12.7rem;
   pointer-events: none;
   border-right: solid 5px var(--Monochromatic);
   transition: top 0.5s ease;
@@ -129,7 +129,6 @@
 
 .theme-base-morandigreen .copyright {
   margin-bottom: 0;
-  font-size: 0.5rem;
 }
 .theme-base-morandigreen .sidebar p.lead {
   font-size: 1rem;
@@ -186,6 +185,15 @@
 .theme-base-morandigreen .post .post-excerptContent,
 .theme-base-morandigreen .post .post-tags {
   padding-bottom: 1rem;
+}
+.theme-base-morandigreen .post .post-more {
+  font-weight: bold;
+}
+.theme-base-morandigreen .post .post-more a {
+  color: inherit;
+}
+.theme-base-morandigreen .post .post-more a:hover {
+  text-decoration: underline;
 }
 .theme-base-morandigreen .post .post-info,
 .theme-base-morandigreen .post .post-tags {

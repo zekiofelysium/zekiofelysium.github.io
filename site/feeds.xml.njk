@@ -14,7 +14,7 @@ eleventyExcludeFromCollections: true
     <item>
       <title>{{ post.data.title }}</title>
       <link>{{ site.url }}{{ post.url | url}}</link>
-      <description>{{ post.templateContent | excerpt }}</description>
+      <description>{{ post.templateContent | striptags | trim | excerpt | safe }}……</description>
       <pubDate>{{ post.date | dateRSS }}</pubDate>
       <guid>{{ site.url }}{{ post.url }}</guid>
     </item>
